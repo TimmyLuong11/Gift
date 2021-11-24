@@ -1,0 +1,13 @@
+﻿<Window x:Class="Surprise.window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Surprise"
+        mc:Ignorable="d"
+        Title="window" Height="450" Width="800">
+    <Grid Background="#FFABC2DC">
+        <Image x:Name="imgBox" HorizontalAlignment="Left" Height="255" Margin="81,82,0,0" VerticalAlignment="Top" Width="241"/>
+        <TextBlock x:Name="TextBlock" HorizontalAlignment="Left" Height="187" Margin="419,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="299" Background="White"/>
+    </Grid>
+</Window>
